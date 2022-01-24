@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+#first-image{
+    width: 350px;
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+#card{
+    background-color: hsl(244, 38%, 16%);
+    min-height: 100vh;
+    border-radius: 10px;
+    width: 350px;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-left: 40px;
+    font-weight: 800px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.h1-indent{
+    position: relative;
+    top: 30px;
+}
+.first{
+   color:  hsl(277, 64%, 61%);
+}
+.move{
+    margin-left: 90px;
+}
+.paragraph{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 130px;
+    top: 60px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.6);
+    position: relative;
+    top:50px;
+    left:115px ;
+}
+@media(min-height:768px){
+#first-image{
+    position: relative;
+    left: 180px;
+}
+#card{
+    position: relative;
+    left: 180px;
+    min-height: 70vh;
+}
+.h1-indent{
+    position: relative;
+    top: 50px;
+}
+.paragraph{
+    position: relative;
+    top: 80px;
+}
+h2{
+    position: relative;
+    top: 120px;
+}
+p{
+    position: relative;
+    top: 120px;
+}
+}
+@media(min-height:768px)and (min-height:1920px){
+#first-image{
+    margin-left: 500px;
+}
+#card{
+    margin-left: 850px;
+}
+}
